@@ -1,2 +1,2 @@
-let qwe = prompt('Ваше имя?')
-alert('Ваше имя ' + qwe)
+let user = {name: 2, surname: 1, patronymic: 2}
+console.log(user['name']);
