@@ -1,2 +1,7 @@
-let user = {name: 2, surname: 1, patronymic: 2}
-console.log(user['name']);
+let num = '3';
+		
+if (num == 3 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
