@@ -1,3 +1,6 @@
 'use strict'
-let obj = {a: 1, b: 2, c: 3};
-console.log(Object.keys(obj));
+let obj = {
+	square: function(arr) {return arr * arr},
+	cube: function(arr) {return arr * arr * arr},
+};
+console.log(obj.square([1, 2, 3, 4]));
