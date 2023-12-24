@@ -1,11 +1,7 @@
-let options = {
-	width:  400,
-	height: 500,
-};
+let elem = document.querySelector('#qwe')
+let button = document.querySelector('#eee')
 
-let {color = 'black', width, height} = options;
-console.log(color, width, height);
-
-
-
-
+button.addEventListener('click', () => {
+    elem.textContent = Number(elem.textContent) + 1
+    console.log(elem.textContent);
+})
