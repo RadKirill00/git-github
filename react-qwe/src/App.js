@@ -1,15 +1,7 @@
 import React from 'react';
-
-
-
+import Practice from './Practice';
 function App() {
-	const obj = {name: 'john', surname: 'smit'};
-  return <p>
-    name:       <span><strong>{obj.name}</strong></span> 
-    <br/>
-    surname:    <span>{obj.surname}</span>
-  </p>
+  return <Practice/>
 }
-
-
 export default App
+
