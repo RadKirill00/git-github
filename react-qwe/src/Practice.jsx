@@ -2,19 +2,28 @@ import React, { useState } from 'react';
 
 const Practice = () => {
 
-  let sum = 0
+  const tasks = [
+    'Поесть',
+    'Поиграть',
+    'Посмотреть фильм'
+  ];
 
-  function getDigitsSum(num) {
-    num.toString().split('').forEach(digit => sum += Number(digit));
-  }
-  
-  getDigitsSum(1233)
+  const generateList = () => {
+    return (
+      <ol>
+        {tasks.map((task, index) => (
+          <li>{task}</li>
+        ))}
+      </ol>
+    );
+  };
 
   return (
     <div>
-      {sum}    
+      <h2>Мои дела на сегодня:</h2>
+      {generateList()}
     </div>
-  )
+  );
     
 };
 
