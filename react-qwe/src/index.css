@@ -1,0 +1,112 @@
+body {
+  background:  #1C1C1C;
+}
+
+.container {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.playlist {
+  color: #6B6B6B;
+}
+.likes {
+  color: white;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.authorAndEmail {
+  margin-top: 8px;
+  color: white;
+  font-size: 18px;
+}
+.author {
+  color: #6B6B6B ;
+  font-size: 18px;
+}
+.myButtons {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  
+}
+
+.pause {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #6B6B6B;
+  background:  #FFCF40;
+  border: 1px solid grey;
+}
+
+.desc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #6B6B6B;
+  background: #1C1C1C;
+  border: 1px solid grey;
+}
+
+.cards {
+  margin-top: 40px;
+  width: 800px;
+}
+
+.components {
+  padding-left: 20px;
+  margin: 20px;
+  display: flex;
+  
+}
+.card-id {
+  color: #6B6B6B;
+  margin-right: 10px;
+}
+.card-id:hover {
+  
+}
+.card-title {
+  color: white;
+  font-size: 18px;
+  margin-right:5px;
+  
+}
+.card-title:hover {
+  
+}
+.card-autor {
+  color:#6B6B6B;
+  margin-right: 70px;
+  
+}
+.card-time {
+  color: #6B6B6B;
+  margin-left: auto;
+  
+
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+
+  
+  transform: scale(1.1);
+
+  
+  
+    opacity: 0.8;
+  
+  
+
+  
+}
+

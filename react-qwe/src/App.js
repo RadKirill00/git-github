@@ -1,6 +1,9 @@
 import React from 'react';
 import Practice from './Practice';
-import './index.css'
+import './Index.css'
+import './reset.css'
+
+
 function App() {
   return <Practice/>
 }
