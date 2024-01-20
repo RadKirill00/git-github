@@ -1,13 +1,21 @@
+
 body {
-  background:  #1C1C1C;
+  background: #1C1C1C;
 }
 
+.dark-mode {
+  background:#1C1C1C;
+}
+
+
 .container {
-  margin-left: 20px;
+  margin-left: 360px;
   margin-top: 30px;
+
 }
 .playlist {
   color: #6B6B6B;
+  margin-left: 30px;
 }
 .likes {
   color: white;
@@ -18,6 +26,7 @@ body {
   margin-top: 8px;
   color: white;
   font-size: 18px;
+  margin-left: 12px ;
 }
 .author {
   color: #6B6B6B ;
@@ -26,8 +35,8 @@ body {
 .myButtons {
   display: flex;
   margin-top: 30px;
-  gap: 20px;
-  
+  gap: 50px ;
+
 }
 
 .pause {
@@ -38,6 +47,7 @@ body {
   color: #6B6B6B;
   background:  #FFCF40;
   border: 1px solid grey;
+  margin-left: -50px;
 }
 
 .desc {
@@ -95,11 +105,23 @@ body {
 
 .card {
   margin: 60px;
+  width: 700px;
+  height: 50px;
+  padding-top: 30px;
+  padding-right: 10px;
 }
 .card:hover {
 
   border: 1px solid #FFCF40;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+}
+
+.theme {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #6B6B6B;
+  border: 1px solid #6B6B6B;
+  background: black;
 }
 
