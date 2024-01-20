@@ -94,19 +94,12 @@ body {
 }
 
 .card {
-  transition: transform 0.3s ease;
+  margin: 60px;
 }
 .card:hover {
 
-  
-  transform: scale(1.1);
-
-  
-  
-    opacity: 0.8;
-  
-  
-
-  
+  border: 1px solid #FFCF40;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
