@@ -17,7 +17,7 @@ const Practice = () => {
     borderRadius: "50px",
     color: "#6B6B6B",
     border: "1px solid #6B6B6B",
-    background: isDarkMode ? "#1C1C1C" : "black", // Change button color based on dark mode
+    background: isDarkMode ? "#1C1C1C" : "black", 
   };
 
   return (
